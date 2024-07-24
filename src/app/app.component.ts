@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { StructuralDirComponent } from './components/directive/structural-dir/structural-dir.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,StructuralDirComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-4">
+        one way - from .ts to .html
+    </div>
+    <div class="col-4">
+
+    </div>
+    <div class="col-4">
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+            <div class="clo-4 bg-success">
+                <h4>{{courseName}}</h4>
+                <input type="text" value="{{courseName}}">
+                <input type="{{inputType}}">
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+       <button class="btn btn-success" (click)="showAlert('welcome to angular 17777')">Show Welcome</button>
+        <button class="btn btn-success" (click)="changeCourseName()">Change name</button>
+        <input type="text" [(ngModel)]="courseName">
+        <input type="checkbox" [(ngModel)]="isIndian">
+        <select [(ngModel)]="stateName">
+            <option value="" >select</option>
+            <option value="Islamabad" >Islamabad</option>
+            <option value="punjab" >punjab</option>
+            <option value="lahore" >lahore</option>
+
+        </select>
+    </div>
+</div>
