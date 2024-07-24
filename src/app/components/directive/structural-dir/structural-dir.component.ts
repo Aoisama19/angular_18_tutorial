@@ -24,15 +24,15 @@ export class StructuralDirComponent {
 
   }
 
-  cityArray: string [] = ['Pune','Mumbai','Nagpur','Thane'];
+  cityArray: string [] = ['Islamabad','Lahore','Karachi','Peshawar'];
 
   studentList: any[] = [
-    {studId:12, name:'AAA', city: 'Pune',   isActive:  false},
-    {studId:22, name:'BBB', city: 'Mumbai', isActive:  false},
+    {studId:12, name:'AAA', city: 'Islamabad',   isActive:  false},
+    {studId:22, name:'BBB', city: 'Lahore', isActive:  false},
     {studId:32, name:'CC', city: 'Jalgao', isActive:  true},
-    {studId:56, name:'DD', city: 'Mumbai', isActive:  false},
-    {studId:34, name:'EE', city: 'Nagpur', isActive:  false},
-    {studId:76, name:'FFF', city: 'Thane', isActive:  true},
+    {studId:56, name:'DD', city: 'Lahore', isActive:  false},
+    {studId:34, name:'EE', city: 'Karachi', isActive:  false},
+    {studId:76, name:'FFF', city: 'Peshawar', isActive:  true},
   ]
 
   naviagteToAttribute() {
