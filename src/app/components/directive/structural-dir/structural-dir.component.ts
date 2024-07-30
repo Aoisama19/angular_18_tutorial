@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-structural-dir',
   standalone: true,
-  imports: [CommonModule,FormsModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './structural-dir.component.html',
   styleUrl: './structural-dir.component.css'
 })
@@ -24,17 +24,15 @@ export class StructuralDirComponent {
 
   }
 
-  cityArray: string [] = ['Islamabad','Lahore','Karachi','Peshawar'];
-
+  cityArray: string[] = ['Islamabad', 'Lahore', 'Karachi', 'Peshawar'];
   studentList: any[] = [
-    {studId:12, name:'AAA', city: 'Islamabad',   isActive:  false},
-    {studId:22, name:'BBB', city: 'Lahore', isActive:  false},
-    {studId:32, name:'CC', city: 'Jalgao', isActive:  true},
-    {studId:56, name:'DD', city: 'Lahore', isActive:  false},
-    {studId:34, name:'EE', city: 'Karachi', isActive:  false},
-    {studId:76, name:'FFF', city: 'Peshawar', isActive:  true},
+    { studId: 12, name: 'AAA', city: 'Islamabad', isActive: false },
+    { studId: 22, name: 'BBB', city: 'Lahore', isActive: false },
+    { studId: 32, name: 'CC', city: 'Jalgao', isActive: true },
+    { studId: 56, name: 'DD', city: 'Lahore', isActive: false },
+    { studId: 34, name: 'EE', city: 'Karachi', isActive: false },
+    { studId: 76, name: 'FFF', city: 'Peshawar', isActive: true },
   ]
-
   naviagteToAttribute() {
     this.router.navigateByUrl("attributedirective")
   }

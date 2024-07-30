@@ -10,7 +10,7 @@ describe('StructuralDirComponent', () => {
     await TestBed.configureTestingModule({
       imports: [StructuralDirComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(StructuralDirComponent);
     component = fixture.componentInstance;
